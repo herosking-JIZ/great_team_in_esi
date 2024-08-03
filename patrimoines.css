@@ -362,9 +362,8 @@ section p{
     .gal div p{
         text-align: justify;
     }
-    
-/* Styles pour les écrans de moins de 600px */
-@media (max-width: 600px) {
+    /* Styles responsifs */
+@media (max-width: 768px) {
     .nav1 {
         flex-direction: column;
         align-items: center;
@@ -379,25 +378,56 @@ section p{
         margin: 5px 0;
     }
 
+    section {
+        padding: 10px;
+    }
+
     .photos {
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .photos div {
-        margin: 10px 0;
+    .photo1, .photo2, .photo3 {
+        width: 100%;
+        max-width: 300px;
     }
 
     .team {
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .binome1, .binome2, .binome3, .binome4 {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .binome1 p, .binome2 p, .binome3 p, .binome4 p {
+        font-size: 14px;
+    }
+    
+    .log1 img, .log2 img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .ouaga {
+        font-size: 24px;
         text-align: center;
-        margin: 20px 0;
+    }
+
+    footer .link ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .link ul li {
+        margin: 5px 0;
+    }
+
+    footer .copy {
+        font-size: 12px;
     }
 }
+
 }
