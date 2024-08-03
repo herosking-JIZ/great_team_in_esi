@@ -362,7 +362,7 @@ section p{
     .gal div p{
         text-align: justify;
     }
-    /* Styles responsifs */
+ /* Styles responsifs */
 @media (max-width: 768px) {
     .nav1 {
         flex-direction: column;
@@ -375,11 +375,25 @@ section p{
     }
 
     nav ul li {
-        margin: 5px 0;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 18px;
     }
 
     section {
         padding: 10px;
+    }
+
+    h2, h3 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
     }
 
     .photos {
@@ -423,6 +437,10 @@ section p{
 
     footer .link ul li {
         margin: 5px 0;
+    }
+
+    footer .link ul li a {
+        font-size: 18px;
     }
 
     footer .copy {
