@@ -425,4 +425,26 @@ footer{
     .gal div p{
         text-align: justify;
     }
+    /* Add this CSS to your stylesheet (patri.css) */
+
+@media (max-width: 600px) {
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .carousel-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-box .title {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .carousel-box .btn {
+        margin-top: 10px;
+    }
 }
