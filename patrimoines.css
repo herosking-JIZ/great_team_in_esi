@@ -362,4 +362,42 @@ section p{
     .gal div p{
         text-align: justify;
     }
+    
+/* Styles pour les écrans de moins de 600px */
+@media (max-width: 600px) {
+    .nav1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .photos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photos div {
+        margin: 10px 0;
+    }
+
+    .team {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .binome1, .binome2, .binome3, .binome4 {
+        text-align: center;
+        margin: 20px 0;
+    }
+}
 }
