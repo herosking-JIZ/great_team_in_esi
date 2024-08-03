@@ -364,23 +364,7 @@ section p{
     }
  /* Styles responsifs */
 @media (max-width: 768px) {
-    .nav1 {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    nav ul li a {
-        font-size: 18px;
-    }
 
     section {
         padding: 20px;
@@ -445,6 +429,61 @@ section p{
 
     footer .copy {
         font-size: 12px;
+    }
+.slogan{
+        width: 90%;
+        margin-left: 5px;
+    }
+    .bouton{
+        margin-bottom: 30px;
+    }
+    .team{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .binome1{
+        margin-left: 42px;
+        margin-top: 70px;
+    }
+    .binome2{
+        margin-left: 42px;
+        margin-top: 70px;
+    }
+    .binome3{
+        margin-left: 42px;
+        margin-top: 70px;
+    }
+    .binome4{
+        margin-left: 42px;
+        margin-top: 70px;
+    }
+    .link{
+        margin-top: 60px;
+    }
+    .link ul{
+        margin-right: 68px;
+    }
+    .patri{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .patri div p{
+        text-align: justify;
+    }
+    .hotel{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .hotel div p{
+        text-align: justify;
+    }
+    .gal{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .gal div p{
+        text-align: justify;
     }
 }
 
